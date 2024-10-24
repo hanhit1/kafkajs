@@ -12,5 +12,5 @@ app.post('/send', async (req, res) => {
 });
 consumeMessage();
 app.listen(8080, () => {
-    console.log('Server is running on port 5000');
+    console.log('Server is running on port 8080');
  });
